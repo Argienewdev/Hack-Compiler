@@ -1,7 +1,11 @@
 # Hack Assembly Language Compiler (GUI Version)
 
 ## Application Overview
-A simple graphical compiler that converts Hack Assembly Language (.asm) to Hack Machine Code (.hack).
+A simple graphical compiler that converts Hack Assembly Language (.asm) to Hack Machine Code (.hack)
+
+The repo comes with test input files taken from https://www.nand2tetris.org/
+
+It also comes with their compiled counterparts
 
 ## Important Assumption
 ⚠️ **The compiler assumes all input code is syntactically correct**  
@@ -22,7 +26,7 @@ programs/
 ## Naming Conventions
 
 - **Source Files**: Must use `.asm` extension (e.g., `program.asm`)
-- **Output Files**: Automatically generated with `.hack` extension
+- **Output Files**: Automatically generated with `.hack` extension, any file with the same name in the output folder will be replaced
 - **Matching Names**: Input and output files share the same base name (e.g., `test.asm` → `test.hack`)
 
 ## Assembly Language Specifications
