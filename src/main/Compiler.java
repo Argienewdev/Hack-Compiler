@@ -26,8 +26,8 @@ import assembly.Variables;
 
 public class Compiler {
 	
-	static final String INPUT_BASE_PATH = "C:\\Users\\Santi\\Desktop\\TEOCS Projects\\Project 6 - Assembler\\HackCompiler\\programs\\input\\";
-	static final String OUTPUT_BASE_PATH = "C:\\Users\\Santi\\Desktop\\TEOCS Projects\\Project 6 - Assembler\\HackCompiler\\programs\\output\\";
+	static final String INPUT_BASE_PATH = "programs\\input\\";
+	static final String OUTPUT_BASE_PATH = "programs\\output\\";
 	
 	private static final String C_INSTRUCTION_PREFIX = "111";
 	private static final String EMPTY = "";
